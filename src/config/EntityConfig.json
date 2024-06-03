@@ -1,0 +1,181 @@
+{
+        "user": [
+                        {
+                            "key": "UserId",
+                            "type": "keyid"
+                        },
+                        {
+                            "key": "Name",
+                            "label": "Name",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "Name is required"
+                            ]
+                        },
+                        {
+                            "key": "Email",
+                            "label": "Email",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "Email is required"
+                            ]
+                        },
+                        {
+                            "key": "PhoneNumber",
+                            "label": "PhoneNumber",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "PhoneNumber is required"
+                            ]
+                        },
+                        {
+                            "key": "JobTitle",
+                            "label": "JobTitle",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "JobTitle is required"
+                            ]
+                        },
+                        {
+                            "key": "Company",
+                            "label": "Company",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "Company is required"
+                            ]
+                        },
+                        {
+                            "key": "Industry",
+                            "label": "Industry",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "Industry is required"
+                            ]
+                        },
+                        {
+                            "key": "Reference",
+                            "label": "Reference",
+                            "type": "dropdown",
+                            "valueId": "Value",
+                            "nameId": "Name",
+                            "contentId": "Name",
+                            "source": "Model.ReferenceOptions",
+                            "editable": true,
+                            "validators": [
+                                "required",
+                                "isNumber"
+                            ],
+                            "validationMessages": [
+                                "Reference is required"
+                            ]
+                        },
+                        {
+                            "key": "HopeToLearn",
+                            "label": "HopeToLearn",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "HopeToLearn is required"
+                            ]
+                        },
+                        {
+                            "key": "Questions",
+                            "label": "Questions",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "Questions is required"
+                            ]
+                        },
+                                                {
+                            "key": "ConsentForFutureCommunication",
+                            "label": "ConsentForFutureCommunication",
+                            "type": "check",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "ConsentForFutureCommunication is required"
+                            ]
+                        },
+                                                {
+                            "key": "AgreeToTermsAndCondition",
+                            "label": "AgreeToTermsAndCondition",
+                            "type": "check",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "AgreeToTermsAndCondition is required"
+                            ]
+                        },
+                        {
+                            "key": "Country",
+                            "label": "Country",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "Country is required"
+                            ]
+                        },
+                        {
+                            "key": "TimeZone",
+                            "label": "TimeZone",
+                            "type": "text",
+                            "editable": true,
+                            "validators": [
+                                "required"
+                            ],
+                            "validationMessages": [
+                                "TimeZone is required"
+                            ]
+                        },
+                                                {
+                            "key": "LikeToReceiveInformation",
+                            "label": "LikeToReceiveInformation",
+                            "type": "check",
+                                "editable": true,
+                                "validators": [
+                                    "required"
+                                ],
+                                "validationMessages": [
+                                    "LikeToReceiveInformation is required"
+                                ]
+                            }
+        ]
+}
